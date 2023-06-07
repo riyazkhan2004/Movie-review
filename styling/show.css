@@ -1,0 +1,41 @@
+.total-wrapbox{
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin: 50;
+    gap: 2rem;
+    justify-content: center;
+    justify-items:center ;
+}
+
+.inside-wrapbox{
+    width: 300;
+    height: 300;
+    border-radius: 10;
+}
+
+.title-text-s{
+    font-size:30 ;
+    padding-top: 0;
+}
+.summary-button{
+    transition-duration: 0.6s;
+    font-family: sans-serif;
+  color:black;
+  font-size: x-large;
+  margin-bottom: 30;
+  border-radius: 10;
+  border-style: hidden;
+  padding: 15;
+  }
+  
+.summary-button:hover{
+    background-color:yellow;
+    color:black;
+  }
+
+.rating-text-s{
+    font-size: 22;
+    padding-bottom: 15;
+}
